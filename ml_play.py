@@ -1,6 +1,6 @@
 import games.arkanoid.communication as comm
 from games.arkanoid.communication import ( \
-    SceneInfo, GameInstruction, GameStatus, PlatformAction
+    SceneInfo, GameStatus, PlatformAction
 )
 
 def ml_loop():
