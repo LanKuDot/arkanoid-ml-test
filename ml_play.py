@@ -1,5 +1,5 @@
-import arkanoid.communication as comm
-from arkanoid.communication import SceneInfo, PlatformAction, GameStatus
+import games.arkanoid.communication as comm
+from games.arkanoid.communication import SceneInfo, PlatformAction, GameStatus
 import pickle
 from sklearn.ensemble import RandomForestRegressor
 import os.path
