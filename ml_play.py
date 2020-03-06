@@ -16,6 +16,10 @@ def ml_loop():
     ballx = 102.5
     bally = 102.5
     predictx = 100
+    
+    scene_info = comm.get_scene_info()
+    comm.send_instruction(scene_info.frame, PlatformAction.SERVE_TO_LEFT)
+    
     while True:
         scene_info = comm.get_scene_info()
         
