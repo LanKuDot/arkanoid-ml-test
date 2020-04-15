@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 import os.path
 
 def ml_loop():
-    
+    a = 1/0
     filename = 'ian.sav'
     filepath = os.path.join(os.path.dirname(__file__), filename)
     model = pickle.load(open(filepath, 'rb'))
