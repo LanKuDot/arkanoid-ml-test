@@ -12,6 +12,9 @@ class MLPlay:
         self.ball_served = False
 
     def update(self, scene_info):
+        """
+        Decide the command according to the received scene information
+        """
         if (scene_info["status"] == "GAME_OVER" or
             scene_info["status"] == "GAME_PASS"):
             return "RESET"
