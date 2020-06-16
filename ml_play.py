@@ -4,6 +4,9 @@ import os.path
 
 class MLPlay:
     def __init__(self):
+        """
+        Initialization
+        """
         filename = 'ian.sav'
         filepath = os.path.join(os.path.dirname(__file__), filename)
         self.model = pickle.load(open(filepath, 'rb'))
